@@ -1,0 +1,25 @@
+h1 {
+
+    font-style: normal;
+    color: pink;
+}
+*{
+   background-color: bisque;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.container .imagem {
+    max-width: 300px; /* Ajuste o tamanho máximo da imagem conforme necessário */
+    height: auto;
+}
+
+.container p {
+    text-align: left; /* Alinha o texto à esquerda */
+}
